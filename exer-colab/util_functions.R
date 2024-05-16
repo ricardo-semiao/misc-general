@@ -52,12 +52,12 @@ format_code <- function(user_input) {
 
 onStop_data_update <- function() {
   # Archive
-  archive <- readRDS(file = "Data/answers_archive.RData")
+  archive <- readRDS(file = "data/answers_archive.RData")
   archive[[format(Sys.time(), "%Y-%m-%d_%H-%M-%OS")]] <- answers
-  saveRDS(archive, file = "Data/answers_archive.RData")
+  saveRDS(archive, file = "data/answers_archive.RData")
   
   # Data update
-  answers_old <- readRDS(file = "Data/answers.RData")
+  answers_old <- readRDS(file = "data/answers.RData")
   
   for (i in glue("set{1:questions$nsets}")) {
     cond <- `&`(
@@ -75,7 +75,7 @@ onStop_data_update <- function() {
   }
   
   answers_old$modified <- format(Sys.time(), "%Y-%m-%d_%H-%M-%OS")
-  saveRDS(answers_old, file = "Data/answers.RData")
+  saveRDS(answers_old, file = "data/answers.RData")
 }
 
 

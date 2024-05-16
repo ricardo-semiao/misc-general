@@ -5,7 +5,7 @@ library(magrittr)
 library(glue)
 
 questions_get <- function(name_class) {
-  name <- glue("Aula_{name_class}_exs.html")
+  name <- glue("aula_{name_class}_exs.html")
   
   html <- read_html(glue("Data/{name}")) %>%
     html_element("body") %>%
