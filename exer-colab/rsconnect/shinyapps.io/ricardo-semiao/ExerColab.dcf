@@ -1,0 +1,13 @@
+name: ExerColab
+title: ExerColab
+username: ricardo-semiao
+account: ricardo-semiao
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10339578
+bundleId: 7867766
+url: https://ricardo-semiao.shinyapps.io/ExerColab/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: rascunhos.txt|Servers/server_set1.R
