@@ -1,0 +1,17 @@
+Package: rony
+Type: Package
+Title: Funções De Séries de Tempo Univariadas
+Version: 0.1
+Author: Ricardo Semião e Castro <ricardo.semiao@outlook.com>
+Maintainer: Ricardo Semião e Castro <ricardo.semiao@outlook.com>
+Description: Funções criadas nos tutoriais de econometria II da FGV-EESP (2020).
+License: MIT + file LICENSE
+Depends:
+  itsmr,
+  mFilter,
+  ggplot2,
+  dynlm,
+  lmtest
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
