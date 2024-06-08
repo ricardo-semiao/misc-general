@@ -5,12 +5,12 @@ Welcome! In this repository i have some miscellaneous projects that I did in the
 Descriptions of the programs in this directory can be found below.
 
 
-# rony
-An R package with general utility functions for working with time series. The most interesting functions are a generalized Dickey-Fuller t-test and an auto ARIMA model selector based on minimal AIC.
+## ml-classification
+A ML Classification project I did to train my data science skills with Python. The theme was credit card default. Made in 2023.
 
-It was done after the end of the class "Econometria II" at FGV-EESP in 2020. This was the course that got me into R, and I decided to create a package with some of the functions I created for the assignments.
 
-Some minor organization/aesthetic changes were made, to improve readability. Mainly using the styler package.
+## stata-pnadc-labor
+A regression-based analysis of labor facts in the Brazilian economy, using "PNADc" data. This project was made to train my skills in Stata.
 
 
 ## exer-colab
@@ -21,8 +21,12 @@ Made as a companion to R classes I was teaching in 2023. Some minor organization
 The app was hosted at https://ricardo-semiao.shinyapps.io/ExerColab/.
 
 
-## ml-classification
-A standard ML Classification project I did to train my data science skills with Python. The theme was credit card default. Made in 2023.
+# rony
+An R package with general utility functions for working with time series. The most interesting functions are a generalized Dickey-Fuller t-test and an auto ARIMA model selector based on minimal AIC.
+
+It was done after the end of the class "Econometria II" at FGV-EESP in 2020. This was the course that got me into R, and I decided to create a package with some of the functions I created for the assignments.
+
+Some minor organization/aesthetic changes were made, to improve readability. Mainly using the styler package.
 
 
 ## sequence_creator
