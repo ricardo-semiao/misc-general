@@ -12,6 +12,8 @@ A ML Classification project I did to train my data science skills with Python. T
 ## stata-pnadc-labor
 A regression-based analysis of labor facts in the Brazilian economy, using "PNADc" data. This project was made to train my skills in Stata.
 
+The PNADc data can't be uploaded to github, but exists in the [data/](stata-pnadc-labor/data/) folder, and can be obtained in [IBGE's site](https://www.ibge.gov.br/estatisticas/downloads-estatisticas.html?caminho=Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Trimestral/Microdados/2023).
+
 
 ## exer-colab
 A R Shiny App that uploads problem sets written in RMarkdown to a platform where anyone can answer and post their answers. The answers can contain text, images, and code, which is evaluated an printed in real time.

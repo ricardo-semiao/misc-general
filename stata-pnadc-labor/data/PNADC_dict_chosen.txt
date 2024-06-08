@@ -1,0 +1,77 @@
+--- Identificação básica:
+1	4	Ano		Ano de referência
+5	1	Trimestre		Trimestre de referência
+6	2	UF		Unidade da Federação
+
+
+--- Domicílio:
+33	1	V1022		Situação do domicílio
+89	2	V2001	1	Número de pessoas no domicílio	01 a 30
+402	1	VD2004		Espécie da unidade doméstica
+
+
+--- Características básicas:
+95	1	V2007	7	Sexo
+104	3	V2009	9	Idade do morador na data de referência
+107	1	V2010	10	Cor ou raça
+
+
+--- Educação:
+123	2	V3009	9	Qual foi o curso mais elevado que ... frequentou anteriormente?
+405	1	VD3004		Nível de instrução mais elevado alcançado (pessoas de 5 anos ou mais de idade) padronizado para o Ensino fundamental -  SISTEMA DE 9 ANOS
+406	2	VD3005		Anos de estudo (pessoas de 5 anos ou mais de idade) padronizado para o Ensino fundamental - SISTEMA DE 9 ANOS
+
+
+--- Desocupação:
+151	1	V4009	9	Quantos trabalhos ... tinha na semana de ... a ... (semana de referência ?
+376	1	V4071	71	No período de ... a ... (período de referência de 30 dias), ... Tomou alguma providência para conseguir trabalho, seja um emprego ou um negócio próprio? 
+380	1	V4073	73	Embora não tenha tomado providência para conseguir trabalho, gostaria de ter trabalhado na semana de ... a ... (semana de referência) ?
+409	1	VD4001		Condição em relação à força de trabalho na semana de referência para pessoas de 14 anos ou mais de idade
+410	1	VD4002		Condição de ocupação na semana de referência para pessoas de 14 anos ou mais de idade
+411	1	VD4003		Força de trabalho potencial para pessoas de 14 anos ou mais de idade
+413	1	VD4004A		Subocupação por insuficiência de horas habitualmente trabalhadas em todos os trabalhos
+414	1	VD4005		Pessoas desalentadas na semana de referência
+423	1	VD4012		Contribuição para instituto de previdência em qualquer trabalho da semana de referência para pessoas de 14 anos ou mais de idade
+461	1	VD4030		Motivo pelo qual não procurou trabalho ou não gostaria de ter trabalhado ou não estava disponível para iniciar um trabalho
+
+
+--- Ocupação:
+200	8	V403312	33	Qual era o rendimento bruto/retirada mensal que ... recebia/fazia normalmente nesse trabalho ? (valor em dinheiro)
+241	3	V4039	39	Quantas horas ... trabalhava normalmente, por semana, nesse trabalho principal?
+247	1	V4040	40	Até o dia ... (último dia da semana de referência) fazia quanto tempo que ... estava nesse trabalho ?
+419	2	VD4010		Grupamentos de atividade principal do empreendimento do trabalho principal da semana de referência para pessoas de 14 anos ou mais de idade
+421	2	VD4011		Grupamentos ocupacionais do trabalho principal da semana de referência para pessoas de 14 anos ou mais de idade
+444	8	VD4019		Rendimento mensal habitual de todos os trabalhos para pessoas de 14 anos ou mais de idade (apenas para pessoas que receberam em dinheiro, produtos ou mercadorias em qualquer trabalho)
+462	3	VD4031		Horas habitualmente trabalhadas por semana em todos os trabalhos para pessoas de 14 anos ou mais de idade
+
+
+--- Outros:
+415	1	VD4007		Posição na ocupação no trabalho principal da semana de referência para pessoas de 14 anos ou mais de idade
+424	1	VD4013		Faixa das horas habitualmente trabalhadas por semana em todos os trabalhos para pessoas de 14 anos ou mais de idade
+
+
+--- Code:
+year 1-4
+tri 5-5
+state 6-7
+house_urban 33-33
+house_size 89-90
+house_type 402-402
+sex 95-95
+age 104-106
+race 107-107
+educ_lv 405-405
+educ_years 406-407
+ocup_njobs 151-151
+ocup_lf 409-409
+ocup_ocup 410-410
+ocup_plf 411-411
+ocup_low 413-413
+ocup_disc 414-414
+ocup_pension 423-423
+ocup_motive 461-461
+job_time 247-247
+job_group 419-420
+job_pos 421-422
+job_pay 444-452
+job_hours 462-464
