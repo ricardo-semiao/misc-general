@@ -10,6 +10,17 @@ Descriptions of the programs in this directory can be found below.
 A ML Classification project I did to train my data science skills with Python. The theme was credit card default.
 
 
+## [scrapping](scrapping) (2025 - 2026)
+
+Several web scrapping projects:
+
+- [scrap_nfl/](scrapping/scrap_nfl/) for NFL Fantasy data, reverse engeneering their API with custom headers, and looping through many requests. Made to get ahead of next week's projections and get ahead of my family league.
+- [scrap_lo/](scrapping/scrap_lo/) for Brazilian health (SUS) data, reverse engeneering the GET API and looping through many requests. Made to guide my friend Loreta how to acomplish her task.
+- [scrap_copa.ipynb](scrapping/scrap_copa.ipynb) for FIFA World Cup data, static scraping with BeautifulSoup. Made to annotate the games I wanted to watch.
+- [scrap_li/](scrapping/scrap_li/) for world bank country data, a static scrapping with BeautifulSoup. Made to guide my friend Livia how to acomplish her task.
+- [scrap_ma/](scrapping/scrap_ma/) for Brazilian elections data, static scraping via extracting hidden JSON database from the HTML page. Made to guide my friend Marcelo how to acomplish her task.
+
+
 ## [stata-pnadc-labor](stata-pnadc-labor) (2024)
 
 A regression-based analysis of labor facts in the Brazilian economy, using "PNADc" data. This project was made to train my skills in Stata.
@@ -24,7 +35,7 @@ The [GVCode](https://www.linkedin.com/company/fgvcode/)'s team entry to the Cons
 From its README:
 
 > Constellation Asset Management is known by their valuation challenge, and the Dev Challenge was their first on the data science field. The goal was to predict the Brazilian stock market flow, and was made in three parts: (i) initial model submission on Kaggle, (ii) report explaining the model and the process of creating it, and (iii) in person presentation with the three best groups, at the firm's HQ.
-
+>
 > The team got the best prediction error, and the second place overall.
 
 
@@ -42,7 +53,7 @@ Made as a companion to R classes I was teaching in 2023. Some minor organization
 The app was hosted at https://ricardo-semiao.shinyapps.io/ExerColab/.
 
 
-# [rony](rony) (2020)
+## [rony](rony) (2020)
 
 An R package with general utility functions for working with time series. The most interesting functions are a generalized Dickey-Fuller t-test and an auto ARIMA model selector based on minimal AIC.
 
